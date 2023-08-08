@@ -2,6 +2,7 @@
     --primary-color: rgb(8, 90, 76);
     --secondary-color: rgb(182, 182, 182);
     --previous-price-color: rgb(137, 137, 137);
+    --selected-pair-color: rgb(227, 249, 246);
 }
 
 *{
@@ -72,6 +73,11 @@ select{
     cursor: pointer;
 }
 
+.pair-container:hover{
+    border-color: var(--primary-color);
+    background: var(--selected-pair-color);
+}
+
 .pair-col-one{
     display: flex;
     flex-direction: row;
@@ -126,7 +132,7 @@ select{
 
 .selected-pair-container{
     border: 1px solid var(--primary-color);
-    background: rgb(227, 249, 246);
+    background: var(--selected-pair-color);
 }
 
 .total-price-container{
