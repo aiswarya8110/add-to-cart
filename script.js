@@ -10,11 +10,6 @@ const hideAllItems = ()=>{
             
             pairContainer.lastElementChild.style.display = "none";
             pairContainer.classList.remove("selected-pair-container");
-
-            // const children = pairContainer.firstElementChild.children;
-
-            // children[2].firstElementChild.style.visibility="hidden";
-            // children[3].firstElementChild.style.display="none";
         }
     })
 }
@@ -27,11 +22,6 @@ const showSelectedItem = (selectedPairContainer)=>{
             pairContainer.hidden = false;
             pairContainer.classList.add("selected-pair-container");
             pairContainer.lastElementChild.style.display = "block";
-
-            // const children = pairContainer.firstElementChild.children;
-
-            // children[2].firstElementChild.style.visibility = "visible";
-            // children[3].firstElementChild.style.display = "block";
         }
     })
 }
