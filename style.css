@@ -190,12 +190,12 @@ select{
     }
 
     .prev-price{
-    font-size: 0.7rem;
+        font-size: 0.7rem;
     }
 
     th, td{
-    padding: 0.2rem;
-    font-size: small;
+        padding: 0.2rem;
+        font-size: smaller;
     }
 
     .total-price-container{
