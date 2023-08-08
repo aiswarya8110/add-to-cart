@@ -77,13 +77,23 @@ select{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     gap: 0.6rem;
     margin-bottom: 	0.625rem;
 }
 
 .pair-col-two{
     display: none;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input-wrapper > :last-child {
+    margin-left: 1rem;
 }
 
 #pair-one-input, #pair-two-input, #pair-three-input {
@@ -97,19 +107,17 @@ select{
 
 .prev-price-wrapper{
     display: flex;
-    align-items: flex-end;
+    align-self: flex-end;
 }
 
 .prev-price{
     color: var(--previous-price-color);
     text-decoration: line-through;
     font-size: 0.8rem;
-    visibility: hidden;
 }
 
 .pair-text{
     color: var(--primary-color);
-    display: none;
 }
 
 .pair-discount{
