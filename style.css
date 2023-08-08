@@ -23,7 +23,7 @@ th, td{
 
 th{
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 1.2rem;
     text-align: left;
 }
@@ -33,7 +33,13 @@ select{
     width: 4.375rem;
     cursor: pointer;
     border: 1px solid var(--secondary-color);
-    border-radius: 0.3rem;
+    border-radius: 0.2rem;
+    background: white;
+}
+
+.hash-number {
+    padding: 0;
+    text-align: right;
 }
 
 .cart-container{
@@ -90,6 +96,7 @@ select{
 
 .pair-col-two{
     display: none;
+    font-size: 0.8rem;
 }
 
 .input-wrapper{
@@ -103,6 +110,7 @@ select{
 }
 
 #pair-one-input, #pair-two-input, #pair-three-input {
+    font-size: 1.1rem;
     align-self: center;
     accent-color: var(--primary-color);
 }
